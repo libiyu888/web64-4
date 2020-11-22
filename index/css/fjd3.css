@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.daohang:hover {
+    background-color: #35c1ef !important;
+    border-radius: 10px;
+}
+
+.dh {
+    height: 146px;
+    margin: 0;
+}
+
+.lby {
+    margin: 0;
+}
+
+.dh1 {
+    height: 80px;
+}
+
+.ul1 {
+    margin-top: 55px;
+}
+
+.ul2 {
+    margin-top: 20px;
+}
+
+.bj {
+    position: relative;
+    top: 24px;
+    left: 100px;
+    width: 245px;
+    height: 92px;
+    background: url('../images/fjd_2.png');
+    background-size: 245px 92px;
+}
+
+.bj2 {
+    position: relative;
+    top: 10px;
+    left: 80px;
+    width: 152px;
+    height: 60px;
+    background: url('../images/fjd_2.png');
+    background-size: 152px 60px;
+}
+
+.bj4 {
+    position: relative;
+    top: 0px;
+    left: 50px;
+    width: 122px;
+    height: 50px;
+    background: url('../images/fjd_2.png');
+    background-size: 122px 50px;
+}
+
+.bj1 {
+    font-size: 30px;
+    margin-left: 356px;
+    margin-top: 50px;
+    color: #35c1ef;
+}
+
+.bj3 {
+    font-size: 30px;
+    margin-left: 260px;
+    margin-top: 20px;
+    color: #35c1ef;
+}
+
+.bj5 {
+    font-size: 20px;
+    margin-left: 210px;
+    margin-top: 10px;
+    color: #35c1ef;
+}
+
+.zx {
+    float: right;
+}
+
+.xx {
+    width: 60px;
+    height: 40px;
+    clear: both;
+    position: relative;
+    float: right;
+}
+
+.aaa {
+    margin-top: 2rem;
+}
+
+.yhd {
+    font-size: 2.3rem;
+}
+
+.jdq {
+    font-size: 1.5rem;
+    margin-top: 2.4rem;
+}
+
+baby {
+    background-color: #f5f5f5;
+}
+
+.lianjie {
+    display: block;
+    margin-top: 1.5rem;
+    background-color: #fff;
+    color: #000;
+    /*padding: 0;*/
+}
+
+.biankuang {
+    border: border: 1px solid #e8e8e8;
+}
+
+.texiao {
+
+    overflow: hidden;
+    border: 1px solid #e8e8e8;
+}
+
+.texiao>img {
+    width: 100%;
+    height: 75%;
+}
+
+.biankuang:hover {
+    border: 1px solid #00ff42;
+    text-decoration: none;
+    color: #000;
+}
+
+.texiao>img:hover {
+    transition: all .3s linear;
+    transform: scale(1.2, 1.2);
+}
+
+.fenyeqi {
+    float: right;
+    overflow: hidden;
+}
+
+.wenbenkuang {
+    width: 106px;
+    float: left;
+}
+
+.anniu {
+    float: right;
+    margin-left: 2.5rem;
+    position: relative;
+    top: 2rem;
+}
+
+.foot {
+    width: 100%;
+    background: rgb(245, 245, 245);
+    overflow: hidden;
+}
+
+.foot-foot {
+    margin-top: 1.5rem;
+}
+
+.foot a {
+    color: #7a7a7a;
+}
+
+.footul>li {
+    margin-bottom: 0.5rem;
+}
+
+.foot-right {
+    text-align: center;
+    color: #7a7a7a;
+}
+
+.footul>li:first-child {
+    color: #000;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
