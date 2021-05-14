@@ -1,1 +1,174 @@
-111zxvvasdfjhakjkadsbiudfgiak iskdhkauldiludfkljfhvsdhf lius
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+  /*   //第一题
+    // 入参格式参考：
+    const url = "http://sample.com/?a=1&b=2&c=xx&d#hash";
+    // 出参格式参考：
+    const result = {
+        a: "1",
+        b: "2",
+        c: "xx",
+        d: ""
+    };
+
+    function querySearch(url) {
+        let newUrl = []
+        let last
+        let obj = {};
+        if (url.indexOf('?') != -1) {
+            newUrl = url.split('?')
+        }
+        let newValue = newUrl.find((item) => {
+            return item.indexOf("&") != -1
+        })
+        console.log(newValue);
+        if (newValue) {
+            last = newValue.split("&")
+        }
+       
+        for (let i = 0; i < last.length; i++) {
+            if (last[i].indexOf("=") > -1) {
+                let [key, value] = last[i].split("=")
+                obj[key] = value
+            } else if (last[i].indexOf("#") > -1) {
+                let [key, value] = last[i].split("#")
+                value = ""
+                obj[key] = value
+            }
+        }
+        return obj
+    }
+    let a = querySearch(url)
+    console.log(a)
+
+
+
+    //第二题
+    const arr = [{
+            id: 1,
+            name: "i1"
+        },
+        {
+            id: 2,
+            name: "i2",
+            parentId: 1
+        },
+        {
+            id: 4,
+            name: "i4",
+            parentId: 3
+        },
+        {
+            id: 3,
+            name: "i3",
+            parentId: 2
+        },
+        {
+            id: 8,
+            name: "i8",
+            parentId: 7
+        }
+    ];
+    
+    function buildTree(arr) {
+        let sonArr = []
+        arr.forEach(value => {
+            if (value.parentId) {
+                sonArr.push(value)
+            }
+        })
+        for (let j in arr) {
+            for (let i in sonArr) {
+                if (sonArr[i].parentId === arr[j].id) {
+                    arr[j].children = sonArr[j]
+                }
+            }
+        }
+        console.log(arr)
+    }
+    buildTree(arr)
+
+
+//第三题
+    
+    const originObj = {
+        a: {
+            b: {
+                c: [1, 5, 11, 23, 422]
+            }
+        },
+        d: function () {
+            console.log("hello world");
+        }
+    };
+
+    function clone(obj) {
+        let newObj = Array.isArray(obj) ? [] : {};
+        for (var key in obj) {
+            let value = obj[key];
+            if (typeof value === "object") {
+                let res = clone(value);
+                newObj[key] = res;
+            } else {
+                newObj[key] = value;
+            }
+        }
+        return newObj;
+    }
+    console.log(clone(originObj))
+
+
+//第四题
+    //大概思路有 用promise进行封装/then方法进行链式操作
+    function arrange(taskId) {
+        const zz={}
+        const execute = async  () =>{
+           console.log(taskId)
+        }
+        zz.execute=execute
+      return  zz
+    }
+    
+    arrange('William').execute(); */
+ 
+
+function get(x,path){
+    let newObject= '';
+//    return obj[path]
+// let x i in x){
+      if(Ar= {a:1,b:2,k:3}
+  for(let ray.isArray(x[i])){
+        for(let j in x[i]){
+            let y = x[i];
+            if(typeof y[j] == 'object'){
+                newObject = y[j][path]
+            }
+        }
+      }else{
+          newObject = x[path]
+      }
+  }
+  return newObject
+}
+console.log(get({a:1,b:2,k:3},"a"),'a'); 
+get({a: [1, {b: 2}]}, 'a[1].b')
+console.log(get({a: [1, {b: 2}]}, 'b'),'3333')
+
+
+/* 问题1：给定一个数组和一个目标数值，从数组中找出两个数，使该两数之和为目标值。将这两个数的数组下标以数组格式返回。
+你可以假定答案唯一，你只能使用每个数组元素一次。 */
+</script>
+
+</html>
